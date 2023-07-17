@@ -1,5 +1,5 @@
 import cv2
-
+#model https://github.com/opencv/opencv/tree/master/data/haarcascades
 img = cv2.imread('char.jfif') # get file path
 
 face_model = cv2.CascadeClassifier('face-detect-model.xml') # call model face-detect-model
